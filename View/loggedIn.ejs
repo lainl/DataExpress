@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome</title>
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    .loggedin-container {
+      text-align: center;
+      margin-top: 50px;
+    }
+    .loggedin-container img {
+      display: block;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+<body>
+  <%- include('header') %>
+  <div class="loggedin-container">
+    <h1>Welcome <%= user ? user.username : "Guest" %></h1>
+    <% if (user) { %>
+      <% if (user.isAdmin) { %>
+        <p>You are an admin user.</p>
+      <% } else { %>
+        <p>You are a non-admin user.</p>
+      <% } %>
+    <% } else { %>
+      <p>You are not logged in.</p>
+    <% } %>
+    <img src="/cutebear.png" alt="Cute Bear">
+  </div>
+</body>
+</html>

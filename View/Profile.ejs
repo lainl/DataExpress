@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title><%= user.username %>'s Profile</title>
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    .profile-container {
+      max-width: 600px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-container">
+    <img class="profile-pic" src="<%= user.profilePic || '/default-profile.png' %>" alt="<%= user.username %>'s Profile Picture">
+    <h1><%= user.username %></h1>
+    <p><strong>Phone Number:</strong> <%= user.phoneNumber %></p>
+    <p><strong>Profession:</strong> <%= user.profession %></p>
+    <p><strong>Bio:</strong> <%= user.bio %></p>
+    <% if (user.intrestes && user.intrestes.length) { %>
+      <p><strong>Interests:</strong> <%= user.intrestes.join(', ') %></p>
+    <% } %>
+  </div>
+</body>
+</html>

@@ -1,0 +1,152 @@
+@font-face {
+  font-family: 'handwritting';
+  src: url('fonts/handwritting.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d5c1a8;
+  color: #96795c;
+  font-family: 'handwritting', sans-serif;
+  height: 100vh;
+  display: flex;
+}
+
+.left-side {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-side {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.welcomeText {
+  text-align: center;
+  font-size: 2em;
+  color: #96795c;
+}
+
+.loginForm {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 30%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 20px;
+  justify-content: center;
+
+}
+
+.loginForm input[type="text"],
+.loginForm input[type="password"],
+.loginForm input[type="email"] {
+  width: 70%;
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #a48c7c;
+  color: #ffffff;
+  border: none;
+  border-radius: 9999px;
+  font-size: 1em;
+  font-family: 'handwritting', sans-serif;
+}
+
+.loginForm button {
+  width: 40%;
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 9999px;
+  font-size: 1em;
+  font-family: 'handwritting', sans-serif;
+  background-color: #96795c;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+
+/* Profile page */
+.profile-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.users-list {
+  width: 30%;
+  height: 100%;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.users-list .user-card {
+  width: 90%;
+  background-color: #a48c7c;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.users-list .user-card img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile-details {
+  width: 70%;
+  height: 100%;
+  padding: 30px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-details img.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 4px solid #96795c;
+}
+
+.logout-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #96795c;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 9999px;
+  font-family: 'handwritting', sans-serif;
+  cursor: pointer;
+  font-size: 1em;
+}

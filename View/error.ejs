@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Error</title>
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    .error-container {
+      text-align: center;
+      color: red;
+      margin-top: 50px;
+    }
+    .error-container img {
+      display: block;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+<body>
+  <%- include('header') %>
+  <div class="error-container">
+    <h1>Error</h1>
+    <p><%= message %></p>
+    <img src="/cutebear.png" alt="Cute Bear">
+  </div>
+</body>
+</html>

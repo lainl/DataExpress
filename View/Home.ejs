@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home - The Data Express</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <%- include('header') %>
+
+  <div class="left-side">
+    <div class="welcomeText">
+      <h1>WELCOME TO THE DATA EXPRESS!</h1>
+      <p>This website is a database of profiles you can view, and if you're an admin you can edit.</p>
+      <img src="/cutebear.png" alt="Cute Bear"> 
+    </div>
+  </div>
+
+  <div class="right-side">
+    <div class="loginForm">
+      <form id="loginForm">
+        <input type="text" id="username" name="username" placeholder="Username" required>
+        <input type="password" id="password" name="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+        <button type="button" onclick="location.href='/register'">Register</button>
+      </form>
+      
+      <p id="errorMessage" style="color: red;"></p>
+    </div>
+  </div>  
+
+  <script src="/js/login.js"></script>
+</body>
+</html>
+
