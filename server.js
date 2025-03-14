@@ -43,7 +43,7 @@ app.get('/login', (req, res) => {
   } else if (req.session.user && req.session.user.isAdmin) {
     res.redirect('/admin');
   } else {
-    res.render('home', { user: null });
+    res.render('Home', { user: null });
   }
 });
 
