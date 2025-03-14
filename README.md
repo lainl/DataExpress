@@ -1,48 +1,10 @@
-# Color Palette
-
-<table>
-  <tr>
-    <th>Color</th>
-    <th>Hex Code</th>
-  </tr>
-  <tr>
-    <td><span style="display:inline-block;width:20px;height:20px;background-color:#96795c;border:1px solid #000;"></span></td>
-    <td>#96795c</td>
-  </tr>
-  <tr>
-    <td><span style="display:inline-block;width:20px;height:20px;background-color:#efdec5;border:1px solid #000;"></span></td>
-    <td>#efdec5</td>
-  </tr>
-  <tr>
-    <td><span style="display:inline-block;width:20px;height:20px;background-color:#ba9f84;border:1px solid #000;"></span></td>
-    <td>#ba9f84</td>
-  </tr>
-  <tr>
-    <td><span style="display:inline-block;width:20px;height:20px;background-color:#d5c1a8;border:1px solid #000;"></span></td>
-    <td>#d5c1a8</td>
-  </tr>
-  <tr>
-    <td><span style="display:inline-block;width:20px;height:20px;background-color:#a4947b;border:1px solid #000;"></span></td>
-    <td>#a4947b</td>
-  </tr>
-  <tr>
-    <td><span style="display:inline-block;width:20px;height:20px;background-color:#ad946c;border:1px solid #000;"></span></td>
-    <td>#ad946c</td>
-  </tr>
-  <tr>
-    <td><span style="display:inline-block;width:20px;height:20px;background-color:#e0ccab;border:1px solid #000;"></span></td>
-    <td>#e0ccab</td>
-  </tr>
-  <tr>
-    <td><span style="display:inline-block;width:20px;height:20px;background-color:#a48c7c;border:1px solid #000;"></span></td>
-    <td>#a48c7c</td>
-  </tr>
-  <tr>
-    <td><span style="display:inline-block;width:20px;height:20px;background-color:#d4bc94;border:1px solid #000;"></span></td>
-    <td>#d4bc94</td>
-  </tr>
-  <tr>
-    <td><span style="display:inline-block;width:20px;height:20px;background-color:#c4bca0;border:1px solid #000;"></span></td>
-    <td>#c4bca0</td>
-  </tr>
-</table>
+- ![#96795c](https://via.placeholder.com/15/96795c/000000?text=+) `#96795c`
+- ![#efdec5](https://via.placeholder.com/15/efdec5/000000?text=+) `#efdec5`
+- ![#ba9f84](https://via.placeholder.com/15/ba9f84/000000?text=+) `#ba9f84`
+- ![#d5c1a8](https://via.placeholder.com/15/d5c1a8/000000?text=+) `#d5c1a8`
+- ![#a4947b](https://via.placeholder.com/15/a4947b/000000?text=+) `#a4947b`
+- ![#ad946c](https://via.placeholder.com/15/ad946c/000000?text=+) `#ad946c`
+- ![#e0ccab](https://via.placeholder.com/15/e0ccab/000000?text=+) `#e0ccab`
+- ![#a48c7c](https://via.placeholder.com/15/a48c7c/000000?text=+) `#a48c7c`
+- ![#d4bc94](https://via.placeholder.com/15/d4bc94/000000?text=+) `#d4bc94`
+- ![#c4bca0](https://via.placeholder.com/15/c4bca0/000000?text=+) `#c4bca0`
