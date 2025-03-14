@@ -33,7 +33,7 @@ app.get('/', (req, res) => {
   } else if (req.session.user && req.session.user.isAdmin) {
     res.redirect('/admin');
   } else {
-    res.render('home', { user: null });
+    res.render('Home', { user: null });
   }
 });
 
@@ -57,7 +57,7 @@ app.get('/profile/:userId', async (req, res) => {
   try {
     const user = await getUserById(req.params.userId);
     if (!user) return res.status(404).send('User not found');
-    res.render('profile', { user });
+    res.render('Profile', { user });
   } catch (error) {
     res.status(500).send({ error: 'Internal Server Error' });
   }
